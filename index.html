@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="kanban">
+      <!-- Backlog -->
+      <div class="card">
+        <h3 class="card_title backlog">Backlog</h3>
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Implement menu
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Fix JS code
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+      </div>
+      <!-- Todo -->
+      <div class="card">
+        <h3 class="card_title todo">Todo</h3>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Implement REST API
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Clean CSS
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+      </div>
+      <!-- Progress -->
+      <div class="card">
+        <h3 class="card_title progress">Progress</h3>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Clean HTML
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Add footer
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+      </div>
+      <!-- Done -->
+      <div class="card">
+        <h3 class="card_title done">Done</h3>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Fix scroll
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+
+        <p class="card_task_draggable" draggable="true">
+          <span><i class="fa fa-angle-left"></i></span>
+          Test app
+          <span><i class="fa fa-angle-right"></i></span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
